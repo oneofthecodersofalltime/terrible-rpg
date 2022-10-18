@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/The Elder Scrolls IV - Oblivion Soundtrack - 04 Harvest Dawn.mp3-c3cc0058e6491d584f5a92531f4f1ba1.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/The Elder Scrolls IV - Oblivion Soundtrack - 04 Harvest Dawn.mp3"
+dest_files=[ "res://.import/The Elder Scrolls IV - Oblivion Soundtrack - 04 Harvest Dawn.mp3-c3cc0058e6491d584f5a92531f4f1ba1.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

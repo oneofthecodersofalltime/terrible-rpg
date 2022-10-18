@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/The Elder Scrolls V - Skyrim - Combat 2.mp3-fe38eaddb6ceaa66090180254ea14f21.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/The Elder Scrolls V - Skyrim - Combat 2.mp3"
+dest_files=[ "res://.import/The Elder Scrolls V - Skyrim - Combat 2.mp3-fe38eaddb6ceaa66090180254ea14f21.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

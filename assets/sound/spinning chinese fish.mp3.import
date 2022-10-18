@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/spinning chinese fish.mp3-3ca5534394eb6130b94bad4919964fac.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/spinning chinese fish.mp3"
+dest_files=[ "res://.import/spinning chinese fish.mp3-3ca5534394eb6130b94bad4919964fac.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

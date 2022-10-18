@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/CROWD CHEER SOUND EFFECT.mp3-61d221ace05baf958f996765c73168ac.mp3str"
+
+[deps]
+
+source_file="res://assets/sound/CROWD CHEER SOUND EFFECT.mp3"
+dest_files=[ "res://.import/CROWD CHEER SOUND EFFECT.mp3-61d221ace05baf958f996765c73168ac.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0
