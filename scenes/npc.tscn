@@ -17,13 +17,15 @@ shape = SubResource( 1 )
 texture = ExtResource( 2 )
 
 [node name="Label" type="Label" parent="."]
-margin_left = -73.0
-margin_top = -65.0
-margin_right = 72.0
-margin_bottom = -17.0
+margin_left = -78.0
+margin_top = -102.0
+margin_right = 69.0
+margin_bottom = -20.0
 text = "Hello, please bring me
 an showel. I want to
-maintain these graves."
+maintain these graves.
+There should be one in
+the dungeons."
 
 [connection signal="area_entered" from="." to="." method="_on_npc_area_entered"]
 [connection signal="area_exited" from="." to="." method="_on_npc_area_exited"]
