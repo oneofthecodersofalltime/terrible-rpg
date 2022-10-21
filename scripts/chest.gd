@@ -23,7 +23,7 @@ func _on_Area2D_area_entered(area):
 
 func _on_Timer_timeout():
 	if done == 2:
-		get_tree().change_scene("res://scenes/victory.tscn")
+		get_tree().change_scene("res://scenes/boss_arena.tscn")
 	shovel.hide()
 	done += 1
 	$Timer.start()
