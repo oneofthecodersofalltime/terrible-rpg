@@ -3,6 +3,7 @@ extends Area2D
 onready var boss_health = 25
 onready var slander = $slander
 onready var health = $health
+onready var player_vars = get_node("/root/player_vars")
 
 var insults = ["You egg wanker, hit me no balls!", "You stinky balled noob!", 
 "Spiderman noob, shrek is better superhero!", "You are only x=0.104, y=0.082", 
@@ -13,7 +14,7 @@ func _ready():
 
 func _on_boss_area_entered(area):
 	if area.is_in_group("player"):
-		get_tree().change_scene("res://scenes/you_are_dead.tscn")
+		player_vars.health -= 4
 	if area.is_in_group("bullet"):
 		if boss_health == 1:
 			get_tree().change_scene("res://scenes/victory.tscn")

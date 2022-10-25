@@ -1,7 +1,7 @@
 extends Area2D
 
 var go = 0
-onready var player_health = 2
+onready var player_vars = get_node("/root/player_vars")
 
 func _on_arm_2_trigger_area_entered(area):
 	if area.is_in_group("player"):
@@ -9,9 +9,7 @@ func _on_arm_2_trigger_area_entered(area):
 
 func _on_arm2_area_area_entered(area):
 	if area.is_in_group("player"):
-		if player_health == 1:
-			get_tree().change_scene("res://scenes/you_are_dead.tscn")
-		player_health -= 1
+		player_vars.health -= 2
 
 func _on_arm_2_trigger_area_exited(area):
 	if area.is_in_group("player"):

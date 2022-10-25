@@ -4,7 +4,7 @@ onready var label = $Label
 func _ready():
 	label.hide()
 
-func _on_npc_area_exited(area):
+func _on_npc_area_exited(_area):
 	label.hide()
 
 func _on_npc_area_entered(area):

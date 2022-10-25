@@ -1,5 +1,6 @@
 extends KinematicBody2D
 
+
 var input_vector = Vector2.ZERO
 onready var speed = 1
 
